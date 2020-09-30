@@ -43,4 +43,12 @@ $ npm install
 $ npm run serve
 ```
 
+## Изображения
+![Счет](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/1.png)
+![История](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/2.png)
+![Планирование](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/3.png)
+![Новая запись](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/4.png)
+![Категории](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/5.png)
+![Профиль](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/6.png)
+
 
