@@ -1,24 +1,46 @@
 # vue-crm
+## Демо
+https://vue-srmsystem.firebaseapp.com/
 
-## Project setup
-```
-npm install
+## Описание 
+### Основные возможности
+CRM система написанная с помощью Vue. В данном приложении есть:
+1) Возможность просмотра курса валют, а также просмотр личныйх средств, в таких валютах как - RUB, USD, GBP (можно кастомизировать, при помощи запросов API)
+2) Возможность просмотра истории записей расходов/доходов. Также предусмотрен график расходов/доходов, для более наглядного просмотра.
+3) Возможность построения планирования расходов/доходов для конкретной категории.
+4) Возможность редактирования и добавления новой категории.
+5) Возможность добавления записей расходов/доходов в конкретную категорию.
+6) Предусмотрена авторизация и регистрация пользователей.
+
+### Дополнительный возможности
+1) Возможность просмотра и редактирования профиля.
+2) Возможность выбора языка - ENG/RUS (в данный момент, переведена только небольшая часть приложения)
+
+## Запуск
+### Предустановка
+Для начала, вам необходимо указать свои данные от Firebase в файле: src -> main.js -> firebase.initializeApp().
+Где key - поле которое требуется изменить.
+Необходимую информацию вы сможете найти на сайте - https://console.firebase.google.com/
+```bash
+firebase.initializeApp({
+  apiKey: "key",
+  authDomain: "key",
+  databaseURL: "key",
+  projectId: "key",
+  storageBucket: "key",
+  messagingSenderId: "key",
+  appId: "key",
+  measurementId: "key"
+})
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### Установка
+```bash
+# Установка необходимых компонентов
+$ npm install
+
+# Для запуска приложения по адресу localhost
+$ npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
