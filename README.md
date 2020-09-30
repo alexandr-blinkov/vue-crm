@@ -44,11 +44,17 @@ $ npm run serve
 ```
 
 ## Изображения
+### Счет
 ![Счет](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/1.png)
+### История
 ![История](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/2.png)
+### Планирование
 ![Планирование](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/3.png)
+### Новая запись
 ![Новая запись](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/4.png)
+### Категории
 ![Категории](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/5.png)
+### Профиль
 ![Профиль](https://github.com/alexandr-blinkov/vue-crm/raw/master/public/img/github/6.png)
 
 
